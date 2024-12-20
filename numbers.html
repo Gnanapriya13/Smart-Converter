@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to conversion website!! &#128522;</h1>
+    </header>
+        <div class="container">
+            <h2 style="text-align:center">Here is your base converter  </h2>
+            <div class="grid">
+                <div>
+                    <label >Enter a number</label>
+                </div>
+                <div >
+                    <input type="text" id="val" size="8px">
+                </div>
+                <div > <label >From</label></div>
+                <div >
+                    <select id="selected1" >
+                        <option value="Binary">Binary</option>
+                        <option value="Decimal">Decimal</option>
+                        <option value="Hexadecimal">Hexadecimal</option>
+                        <option value="Octal">Octal</option>
+                    
+                      </select>
+                </div>
+                      <div >  <label>To</label></div>
+                      <div >
+                        <select id="selected2" >
+                            <option value="Binary">Binary</option>
+                            <option value="Decimal">Decimal</option>
+                            <option value="Hexadecimal">Hexadecimal</option>
+                            <option value="Octal">Octal</option>
+                          </select>
+                        </div>
+        </div> 
+        <button id="convertBtn">submit</button>
+        <a href="index.html"><button id="back">back  </button></a>
+        <a href="numbers.html"> <button id="refresh" text decoration="none">refresh</button></a>
+        <p id="answer"></p><br>
+        <p id="thanku"></p>
+       
+        </div>
+        <script src="./number.js"></script>
+</body>
+</html>

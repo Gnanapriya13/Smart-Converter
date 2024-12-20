@@ -1,0 +1,102 @@
+body{
+    color:black;
+    font-weight: bold;
+    background-color:rgb(244, 232, 244);
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    position: relative;
+    top:10px;
+}
+.container{
+    border-radius: 20px;
+    border:3px solid rgb(227, 222, 215);
+    background-color: rgb(237, 197, 237);
+    transform: translateY(30px);
+    height:400px;
+    width:300px;
+    margin:auto;
+    box-shadow: 3px 5px 5px rgb(91, 91, 86),-3px 5px 5px rgb(91,91,86) ;
+}
+
+@media(max-width:600px){
+    .container{
+      transform: translateY(29px);
+    }
+}
+header{
+    text-align: center;
+   
+}
+.grid{
+    border:auto;
+    margin:15px;
+    width:50%;
+    height: 50%;
+    display: grid;
+    grid-template-columns: 145px 100px;
+    grid-template-rows: 0.25fr 0.25fr 0.25fr;
+   float:left;
+   font-size:13px;
+   align-content: center;
+   position :relative;
+   top:4px;
+   left:10px;
+}
+button
+{
+position:relative;
+top:240px;
+right:20px;
+cursor:pointer;
+margin:4px
+}
+h2{
+    border-bottom: 3px solid rgb(165, 162, 159);
+    position:relative;
+    top:5px;
+   padding-bottom: 3px;
+}
+#answer{
+    position :relative;
+    top:125px;
+    right:80px;
+    font-size: small;
+    text-align: center;
+    
+}
+.grid2{
+    display: grid;
+    position: relative;
+    top:200px;
+    grid-template-columns: 145px 100px;
+    grid-row: 0.25fr;
+}
+#thanku{
+    position:relative;
+    top:80px;
+    right:80px;
+    font-size: small;
+    text-align: center;
+}
+
+#back{
+    position:relative;
+top:240px;
+right:160px;
+
+}
+#refresh{
+    position:relative;
+    top:207px;
+    right:-45px;
+    display: none
+   
+}
+a{
+    text-decoration: none;
+}
+button:hover{
+    background-color: rgb(155, 149, 149);
+}
+
